@@ -53,6 +53,6 @@ To apply data analysis techniques to solve real business problems and support da
 
 ---
 
-## 👨‍💻 Author
+## Author
 **Aya Rahmouny**
 Aspiring Data Analyst | Full Stack Engineering Background
