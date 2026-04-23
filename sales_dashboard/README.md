@@ -1,56 +1,66 @@
-# Sales Performance Dashboard
+Sales Performance Dashboard
+=> Project Overview
 
-## Overview
-This project analyzes sales data to understand business performance, track KPIs, and identify trends in revenue, customers, and products.  
-An interactive dashboard was built using **Power BI**, supported by data cleaning and transformation using **SQL**.
+This project analyzes sales performance using SQL and Power BI.
+The goal is to track key business metrics such as revenue, customer behavior, and growth trends to support data-driven decision-making.
 
----
+=> Tools & Technologies
+SQL (MySQL) → Data cleaning & transformation
+Power BI → Data visualization & dashboard creation
+DAX → Business calculations and KPIs
 
-## Objectives
-- Analyze overall sales performance
-- Track key business KPIs
-- Understand product and customer behavior
-- Identify revenue trends over time
+=> Project Structure
+sales-dashboard/
+│── powerbi/
+│   └── sales_dashboard.pbix
+│── mysql/
+│   └── sales_queries.sql
+│── dax/
+│   └── dax_measures.md
+│── screenshots/
+│── README.md
 
----
+=> Dashboard Features
+Total Sales, Orders, Customers
+Average Order Value (AOV)
+Year-over-Year Growth
+Monthly Sales Trend
+Sales by Category & Sub-Category
+Top Customers Analysis
 
-## Tools & Technologies
-- SQL (data cleaning & transformation)
-- Power BI (dashboard development)
-- Excel / CSV datasets
+=> Key Insights
+The company generated 28M in total sales with a ~4.7% YoY growth, indicating steady performance.
+Revenue is concentrated among a small group of customers, highlighting the importance of customer retention strategies.
+A limited number of products drive most of the sales (top-heavy distribution).
+Sales fluctuate over time, suggesting seasonality patterns.
 
----
+=> Business Value
 
-## Key KPIs
-- Total Revenue
-- Average Order Value (AOV)
-- Sales Growth
-- Number of Customers
+This dashboard helps:
 
----
+Identify high-value customers
+Monitor business growth over time
+Optimize product strategy
+Support better decision-making
 
-## Analysis Performed
-- Cleaned and structured raw sales data using SQL
-- Built data model for reporting (relationships between sales, customers, products)
-- Analyzed:
-  - Monthly and yearly sales trends
-  - Product performance
-  - Customer contribution to revenue
-- Designed interactive Power BI dashboard
+=> DAX Measures
 
----
+Key calculations include:
 
-## Key Insights
-- Sales vary significantly across time periods
-- A small number of products generate most revenue
-- Customer purchasing behavior is uneven across segments
+Total Sales
+Total Orders
+Total Customers
+Average Order Value (AOV)
+Sales per Customer
+Year-over-Year Growth
 
----
+Full list available in: dax/dax_measures.md
 
-## Outcome
-A fully interactive Power BI dashboard that enables business stakeholders to monitor performance and make data-driven decisions.
+=> Future Improvements
+Add profit analysis
+Build forecasting models
+Improve interactivity with filters
 
----
-
-## Author
+=> Author
 Aya Rahmouny
+Aspiring Data Analyst | SQL • Power BI • Python
