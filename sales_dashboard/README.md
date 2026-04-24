@@ -73,7 +73,7 @@ Key calculations include:
 * Sales per Customer
 * Year-over-Year Growth
 
-📌 Full list available in: `dax/dax_measures.md`
+Full list available in: `dax/dax_measures.md`
 
 ---
 
@@ -87,7 +87,5 @@ Key calculations include:
 
 ## Author
 
-Aya Rahmouny
-Aspiring Data Analyst | SQL • Power BI • Python
 **Aya Rahmouny**
 Aspiring Data Analyst | SQL • Power BI • Python
