@@ -138,9 +138,29 @@ Key analyses performed:
 
 ---
 
-## Model Saving
+## 💾 Model Saving
 
 ```python
 import joblib
 
 joblib.dump(model, "models/logistic_model.pkl")
+```markdown
+
+## How to Run the Project
+Clone the repository
+Install dependencies:
+pip install -r requirements.txt
+Run notebooks in order:
+01_eda.ipynb
+02_preprocessing.ipynb
+03_modeling.ipynb
+
+## Future Improvements
+Use One-Hot Encoding instead of Label Encoding
+Try advanced models (Random Forest, XGBoost)
+Perform hyperparameter tuning
+Deploy the model using a web app (Streamlit)
+
+```markdown
+## Author
+Aya Rahmouny
