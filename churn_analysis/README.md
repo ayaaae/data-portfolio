@@ -144,12 +144,14 @@ Key analyses performed:
 import joblib
 
 joblib.dump(model, "models/logistic_model.pkl")
-```markdown
+```
 
 ## How to Run the Project
 Clone the repository
 Install dependencies:
+```python
 pip install -r requirements.txt
+```
 Run notebooks in order:
 01_eda.ipynb
 02_preprocessing.ipynb
